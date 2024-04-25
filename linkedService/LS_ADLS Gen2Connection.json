@@ -1,0 +1,19 @@
+{
+	"name": "LS_ADLS Gen2Connection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://testdatalakestoragen2024.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_Keyvaultls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Storageaccountkey"
+			}
+		}
+	}
+}

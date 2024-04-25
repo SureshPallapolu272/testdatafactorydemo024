@@ -1,0 +1,9 @@
+{
+	"name": "testsemodatafactory024",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1aa8ab92-ccf4-4e16-ab01-e0e52ceb2261",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}

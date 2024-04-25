@@ -1,0 +1,10 @@
+{
+	"name": "AzureDataLakeStorage975",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/0b09d9a2-10b0-4bdb-966c-fa3ebfa3ba0a/resourceGroups/TestRG002/providers/Microsoft.Storage/storageAccounts/testdatalakestoragen2024",
+		"groupId": "dfs",
+		"fqdns": [
+			"testdatalakestoragen2024.dfs.core.windows.net"
+		]
+	}
+}
