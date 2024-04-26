@@ -1,0 +1,56 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testsemodatafactory024"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_BLOBConnection_connectionString": {
+			"value": ""
+		},
+		"LS_BlobLinkedService_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://testdatalakestoragen2024.dfs.core.windows.net/"
+		},
+		"LS_ADLS Gen2Connection_properties_typeProperties_url": {
+			"value": "https://testdatalakestoragen2024.dfs.core.windows.net/"
+		},
+		"LS_HTTPConnection_properties_typeProperties_url": {
+			"value": "@{linkedService().baseURL}"
+		},
+		"LS_Keyvaultls_properties_typeProperties_baseUrl": {
+			"value": "https://testkeyvault0024.vault.azure.net/"
+		},
+		"LS_SQLConnection_properties_typeProperties_connectionString_secretName": {
+			"value": "SQLConnectionString"
+		},
+		"TR_EventTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/0b09d9a2-10b0-4bdb-966c-fa3ebfa3ba0a/resourceGroups/TestRG002/providers/Microsoft.Storage/storageAccounts/teststorageaccount024"
+		},
+		"AzureDataLakeStorage975_properties_privateLinkResourceId": {
+			"value": "/subscriptions/0b09d9a2-10b0-4bdb-966c-fa3ebfa3ba0a/resourceGroups/TestRG002/providers/Microsoft.Storage/storageAccounts/testdatalakestoragen2024"
+		},
+		"AzureDataLakeStorage975_properties_groupId": {
+			"value": "dfs"
+		},
+		"AzureDataLakeStorage975_properties_fqdns": {
+			"value": [
+				"testdatalakestoragen2024.dfs.core.windows.net"
+			]
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
